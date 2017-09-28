@@ -1,5 +1,5 @@
-#include"BigInt.h"
-#include<iostream>
+#include "BigInt.h"
+#include <iostream>
 
 int main()
 {

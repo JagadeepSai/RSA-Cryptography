@@ -216,8 +216,8 @@ BigInt& BigInt::operator/=(const BigInt& i_val){
         *this = BigInt::ONE;
         return *this;
     }
-    std::cout << *this << std::endl;
-    std::cout << i_val << std::endl;
+   // std::cout << *this << std::endl;
+   // std::cout << i_val << std::endl;
 
     BigInt ret(0);
     if (sign_ == i_val.sign_)
